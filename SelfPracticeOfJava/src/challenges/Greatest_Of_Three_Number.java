@@ -12,13 +12,12 @@ public class Greatest_Of_Three_Number {
 		int b = input.nextInt();
 		System.out.println("Enter third number: ");
 		int c = input.nextInt();
-		if (a > b && a > c) {
+		if (a >= b && a >= c) {
 			System.out.println("first number is Greater");
-		} else if (b > c) {
+		} else if (b >= c) {
 			System.out.println("Second number is Greater");
 		} else {
 			System.out.println("Third number is Greater");
 		}
 	}
-
 }
