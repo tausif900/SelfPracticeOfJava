@@ -2,7 +2,7 @@ package challenges;
 
 import java.util.Scanner;
 
-public class Multiplication_Table {
+public class _17_Multiplication_Table {
 	public static void main(String[] args) {
 		
 //		Program to print table using user input.
