@@ -2,7 +2,7 @@ package challenges;
 
 import java.util.Scanner;
 
-public class FloatMultiplication {
+public class _3_FloatMultiplication {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		System.out.println("Please Enter 1st floating number:");

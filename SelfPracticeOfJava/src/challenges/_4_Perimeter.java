@@ -2,7 +2,7 @@ package challenges;
 
 import java.util.Scanner;
 
-public class Perimeter {
+public class _4_Perimeter {
 
 	public static void main(String[] args) {
 		System.out.println("Perimeter Calculations");

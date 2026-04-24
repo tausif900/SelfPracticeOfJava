@@ -2,7 +2,7 @@ package challenges;
 
 import java.util.Scanner;
 
-public class Greatest_Of_Three_Number {
+public class _11_Greatest_Of_Three_Number {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

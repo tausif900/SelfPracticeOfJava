@@ -2,7 +2,7 @@ package challenges;
 
 import java.util.Scanner;
 
-public class Arithmetic_1 {
+public class _2_Arithmetic {
 
 	public static void main(String[] args) {
 		System.out.println("Welcome to solve Arithmetic Problems\n");

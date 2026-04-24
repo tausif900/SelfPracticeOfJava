@@ -2,7 +2,7 @@ package challenges;
 
 import java.util.Scanner;
 
-public class Simple_Interest {
+public class _6_Simple_Interest {
 
 	public static void main(String[] args) {
 		System.out.println("Calculate the Simple Interest");

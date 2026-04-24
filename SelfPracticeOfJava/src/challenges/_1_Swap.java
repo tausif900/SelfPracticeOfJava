@@ -2,7 +2,7 @@ package challenges;
 
 import java.util.Scanner;
 
-public class Swap {
+public class _1_Swap {
 	public static void main(String[] args) {
 
 //		Swapping of two numbers..............................

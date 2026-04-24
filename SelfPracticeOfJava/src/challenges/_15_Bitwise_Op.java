@@ -2,7 +2,7 @@ package challenges;
 
 import java.util.Scanner;
 
-public class Bitwise_Op {
+public class _15_Bitwise_Op {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

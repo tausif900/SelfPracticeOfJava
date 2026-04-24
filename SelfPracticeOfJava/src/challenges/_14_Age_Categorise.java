@@ -2,7 +2,7 @@ package challenges;
 
 import java.util.Scanner;
 
-public class Age_Categorise {
+public class _14_Age_Categorise {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

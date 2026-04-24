@@ -2,7 +2,7 @@ package challenges;
 
 import java.util.Scanner;
 
-public class OddEven_BitWise {
+public class _16_OddEven_BitWise {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

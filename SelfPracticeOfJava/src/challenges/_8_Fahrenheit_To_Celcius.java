@@ -2,7 +2,7 @@ package challenges;
 
 import java.util.Scanner;
 
-public class Fahrenheit_To_Celcius {
+public class _8_Fahrenheit_To_Celcius {
 	public static void main(String[] args) {
 		System.out.println("Welcome to Converting Fahrenheit to Celcius");
 		Scanner input = new Scanner(System.in);

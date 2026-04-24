@@ -2,7 +2,7 @@ package challenges;
 
 import java.util.Scanner;
 
-public class Grade_Calculator {
+public class _13_Grade_Calculator {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

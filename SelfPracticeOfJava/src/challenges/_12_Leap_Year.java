@@ -2,7 +2,7 @@ package challenges;
 
 import java.util.Scanner;
 
-public class Leap_Year {
+public class _12_Leap_Year {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
