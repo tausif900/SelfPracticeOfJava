@@ -23,8 +23,8 @@ public class _29_ArraySumAvg {
 
 	public static long sum(int num[]) {
 		int sum = 0;
-		for (int i = 0; i < num.length; i++) {
-			sum = sum + num[i];
+		for (int i : num) {
+			sum = sum + i;
 		}
 		return sum;
 	}
