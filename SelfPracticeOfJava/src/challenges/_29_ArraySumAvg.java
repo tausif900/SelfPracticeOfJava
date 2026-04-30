@@ -13,6 +13,7 @@ public class _29_ArraySumAvg {
 		for (int i = 0; i < size; i++) {
 			num[i] = input.nextInt();
 		}
+		
 
 		long sum = sum(num);
 		long average = average(num);
