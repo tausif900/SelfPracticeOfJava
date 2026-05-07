@@ -7,5 +7,8 @@ public class Bank {
 
 		b1.displayBalance();
 		b1.withdraw(25000);
+
+		b2.displayBalance();
+		b2.withdraw(5000);
 	}
 }
