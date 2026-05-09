@@ -25,6 +25,6 @@ public class AreaOfShapes {
 	}
 
 	double areaOfCircle() {
-		return (2 * Math.PI * this.radius * this.radius);
+		return Math.PI * this.radius * this.radius;
 	}
 }
