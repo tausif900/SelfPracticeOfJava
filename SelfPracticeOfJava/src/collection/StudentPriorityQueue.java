@@ -5,13 +5,8 @@ import java.util.PriorityQueue;
 
 public class StudentPriorityQueue {
 	public static void main(String[] args) {
-		PriorityQueue<Student> queue = new PriorityQueue<StudentPriorityQueue.Student>(new Comparator<Student>() {
-
-			@Override
-			public int compare(Student o1, Student o2) {
-				return o1.getGrade() - o2.getGrade();
-			}
-		});
+		PriorityQueue<Student> queue = new PriorityQueue<StudentPriorityQueue.Student>(
+				(a, b) -> a.getGrade() - b.getGrade());
 		queue.offer(new Student("Tausif", 'A'));
 		queue.offer(new Student("Saif", 'B'));
 		queue.offer(new Student("Tonny", 'A'));
