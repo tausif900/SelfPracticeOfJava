@@ -17,13 +17,24 @@ public class BankOfBarodaAtm {
 	}
 
 	public void depositMoney(int amount) {
-		this.balance += amount;
-		System.out.println("Your current balance is: " + balance);
+		if (amount != 0 && amount > 0) {
+			this.balance += amount;
+			System.out.println("Your current balance is: " + balance);
+		} else {
+			System.out.println("Entered amount is invalid");
+		}
 	}
 
 	public void withdrawMoney(int amount) {
-		this.balance -= amount;
-		System.out.println("Your current balance is: " + balance);
+		if (balance == 0) {
+			System.out.println("You have 0 balance left!!!");
+		} else if (amount > balance) {
+			System.out.println("Entered Amount is more than balance amount");
+		} else if (amount < 0) {
+			System.out.println("Entered amount is invalid");
+		} else {
+			this.balance -= amount;
+			System.out.println("Your current balance is: " + balance);
+		}
 	}
-
 }

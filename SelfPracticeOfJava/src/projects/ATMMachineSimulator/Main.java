@@ -9,6 +9,10 @@ public class Main {
 		BankOfBarodaAtm user1 = new BankOfBarodaAtm(5000);
 
 		System.out.println("========Bank Of Baroda Welcomes You========");
+
+		int depositTransactionCount = 0;
+		int withdrawTransactionCount = 0;
+
 		while (true) {
 
 			System.out.println("1.Check Balance");
@@ -39,6 +43,15 @@ public class Main {
 			default:
 				System.out.println("Invalid request...");
 				break;
+			}
+			if (choice == 1 || choice == 4) {
+				System.out.println(" ");
+			} else if (choice == 2) {
+				depositTransactionCount++;
+				System.out.println("Your deposit transaction is: " + depositTransactionCount);
+			} else if (choice == 3) {
+				withdrawTransactionCount++;
+				System.out.println("Your withdraw transaction is: " + withdrawTransactionCount);
 			}
 		}
 	}
