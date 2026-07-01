@@ -26,16 +26,27 @@ public class Main {
 			case 1:
 				user1.checkBalance();
 				break;
+
 			case 2:
 				System.out.print("Enter amount to deposit: ");
 				int depositAmount = input.nextInt();
-				user1.depositMoney(depositAmount);
+				if (user1.depositMoney(depositAmount)) {
+					System.out.println("Amount has been deposited " + user1.getBalance());
+					depositTransactionCount++;
+				} else {
+					System.out.println("Entered amount is invalid");
+				}
 				break;
+
 			case 3:
 				System.out.print("Enter amount to withdraw: ");
 				int withdrawAmount = input.nextInt();
-				user1.withdrawMoney(withdrawAmount);
+				if (user1.withdrawMoney(withdrawAmount)) {
+					System.out.println("Amount has been withdrawl, remaining balance is " + user1.getBalance());
+					withdrawTransactionCount++;
+				}
 				break;
+
 			case 4:
 				System.out.println("Thanks for visiting!!!!...Visit Again!!...");
 				System.exit(0);
@@ -44,13 +55,12 @@ public class Main {
 				System.out.println("Invalid request...");
 				break;
 			}
+
 			if (choice == 1 || choice == 4) {
 				System.out.println(" ");
 			} else if (choice == 2) {
-				depositTransactionCount++;
 				System.out.println("Your deposit transaction is: " + depositTransactionCount);
 			} else if (choice == 3) {
-				withdrawTransactionCount++;
 				System.out.println("Your withdraw transaction is: " + withdrawTransactionCount);
 			}
 		}
